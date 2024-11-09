@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    border: 1px solid bisque;
+    background-color: bisque;
+    height: 80.1vh;
+    text-align: center;
+    justify-content: center;
+    margin: 0 90px;
+    margin-top: 130px;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 200px;
+    position: relative;
+    bottom: 80px;
+    border: 3px solid red;
+}
+
+.isi{
+    border: 1px solid black;
+    height: 59vh;
+    background-color: black;
+    margin: 0 50px;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+}
+
+.izuru{
+    color: white;
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+
+table{
+    /* background-color: red; */
+    color: white;
+}
+
+table tr td{
+    /* border: 1px solid cyan; */
+    padding: 5vh;
+    font-size: 34px;
+}
+
+@media (max-width: 1366px){
+    table tr td{
+        font-size: 19px;
+    }
+    .izuru{
+        font-size: 25px;
+    }
+    .isi{
+        height: 51vh;
+    }
+  }
+
+  @media (max-width: 700px){
+      img{
+          width: auto;
+          height: 100px;
+          top: -50px;
+      }
+      .container{
+          margin: 0 30px;
+          margin-top: 100px; 
+          padding-bottom: 7vh;
+      }
+      .isi{
+          margin: 0 30px;
+          margin-top: 30px;
+          padding-bottom: 14vh;
+      }
+      table tr td{
+        /* border: 1px solid cyan; */
+        font-size: 12px;
+        padding: 2vh;
+      }
+      .izuru{
+          font-size: 20px;
+      }
+  }
+
+  @media (max-width: 400px){
+    img{
+        width: auto;
+        height: 100px;
+        top: -50px;
+    }
+    .container{
+        margin: 0 30px;
+        margin-top: 100px; 
+        padding-bottom: 7vh;
+    }
+    .isi{
+        margin: 0 30px;
+        margin-top: 30px;
+        padding-bottom: 9vh;
+    }
+    table tr td{
+      /* border: 1px solid cyan; */
+      font-size: 8px;
+      padding: 2vh;
+    }
+    .izuru{
+        font-size: 20px;
+    }
+}
